@@ -5,6 +5,7 @@ const guestRoutes = [
   { icon: Layout, label: 'Dashboard', href: '/' },
   { icon: Compass, label: 'Browse', href: '/search' },
 ];
+
 const SidebarRoutes = () => {
   const routes = guestRoutes;
   return (
